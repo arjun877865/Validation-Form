@@ -36,7 +36,7 @@ function checkPhone(input) {
   if (re.test(input.value.trim())) {
     showSuccess(input);
   } else {
-    showError(input, 'Please enter a valid phone number (e.g., 123-4567890)');
+    showError(input, 'Please enter a valid phone number (e.g., 1234567890)');
     
     
     
